@@ -11,6 +11,10 @@ Antes de começar, você precisa clonar o repositório para sua máquina local:
 git clone <URL_DO_REPOSITORIO>
 cd <NOME_DO_REPOSITORIO>
 ```
+Se for usar o VSCode para editar seu código, use o comando a seguir para abrir o projeto diretamente no editor:
+```bash
+code .
+```
 
 ### 2. Criar uma Nova Branch
 Crie uma nova branch para isolar o trabalho que será feito:
@@ -38,6 +42,7 @@ git commit -m "Descrição das mudanças feitas"
 
 ### 6. Enviar as Alterações para o Repositório Remoto
 Envie sua branch para o repositório remoto:
+OBS: certifique-se de que está fazendo commit na branch certa (evita retrabalho depois)
 ```bash
 git push origin minha-nova-branch
 ```
@@ -54,3 +59,4 @@ Agora é só aguardar a revisão da equipe e, se aprovado, o merge será feito n
 ---
 
 Este processo é essencial para uma colaboração eficiente em projetos de software, permitindo o controle de versões e revisões de código.
+Você pode checar o guia para usuários de VSCode também neste repositório. Sinta-se à vontade para fazer um commit propondo alguma correção ou adendo.
